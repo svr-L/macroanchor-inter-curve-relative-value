@@ -4,8 +4,6 @@
 
 [Parent model & Repo](https://github.com/svr-L/macroanchor-bond-risk-premia) · [Separate intra-curve RV project](https://github.com/svr-L/macroanchor-curve-relative-value)
 
-**Research classification:** historical **12-month forward proxy-return backtest** · **V2.3 core frozen** · **CDS and Q-credit extensions exploratory** · **not executable performance**.
-
 ## From macro-finance model to sovereign relative value
 
 The **parent model** treats a moving macroeconomic anchor, `r* + trend inflation`, as the *central tendency of a physical-measure short-rate process*, **not** a mechanically fair value for 10Y bond yields. It constructs a model-implied **pure-expectations yield**; the difference from the observed sovereign yield is a macro-anchored term-premium residual.
