@@ -1,14 +1,14 @@
 # MacroAnchor · Inter-Curve Relative Value
 
-**Cross-country sovereign rates research, extending the [MacroAnchor bond risk premia working paper](https://github.com/svr-L/macroanchor-bond-risk-premia).**
+**Cross-country sovereign rates research, extending [MacroAnchor bond risk premia](https://github.com/svr-L/macroanchor-bond-risk-premia).**
 
-[Parent paper & model](https://github.com/svr-L/macroanchor-bond-risk-premia) · [Paper PDF](https://github.com/svr-L/macroanchor-bond-risk-premia/blob/main/paper/macroanchor_working_paper.pdf) · [Separate intra-curve RV project](https://github.com/svr-L/macroanchor-curve-relative-value)
+[Parent model & Repo](https://github.com/svr-L/macroanchor-bond-risk-premia) · [Separate intra-curve RV project](https://github.com/svr-L/macroanchor-curve-relative-value)
 
 **Research classification:** historical **12-month forward proxy-return backtest** · **V2.3 core frozen** · **CDS and Q-credit extensions exploratory** · **not executable performance**.
 
 ## From macro-finance model to sovereign relative value
 
-The **parent paper** treats a moving macroeconomic anchor, `r* + trend inflation`, as the *central tendency of a physical-measure short-rate process*, **not** a mechanically fair value for 10Y bond yields. It constructs a model-implied **pure-expectations yield**; the difference from the observed sovereign yield is a macro-anchored term-premium residual.
+The **parent model** treats a moving macroeconomic anchor, `r* + trend inflation`, as the *central tendency of a physical-measure short-rate process*, **not** a mechanically fair value for 10Y bond yields. It constructs a model-implied **pure-expectations yield**; the difference from the observed sovereign yield is a macro-anchored term-premium residual.
 
 **This repository evolves that pre-existing signal into an inter-curve trading research question:** when sovereign curves are compared at the **same 10Y maturity**, does ranking countries by their *past-only standardized* MacroAnchor residual support **DV01-neutral** long/short relative value? This is **between national yield curves**, not a butterfly/tenor trade on one curve.
 
@@ -84,10 +84,6 @@ python scripts/plot_results.py
 python -m unittest discover -s tests -v
 python scripts/verify_manifest.py
 ```
-
-## Post-freeze credit research (not part of V2.3 results)
-
-The [exploratory notebooks](exploratory/README.md) investigate sovereign **5Y CDS risk buckets (V3.2)** and **Q-consistent simplified credit-sensitive bond-pricing inversion (V4.1)**. Their sample coverage is **insufficient for a statistically informative six-leg same-universe portfolio comparison** (the matched six-leg window formed only nine months). **No credit-adjusted improvement is claimed.** This line is a potential *rates–credit* modeling extension, not a retrofit of the frozen signal.
 
 ## Important caveats
 
