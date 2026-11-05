@@ -1,0 +1,13 @@
+output_row,strategy,oneway_cost_bp,fx_extra_annual_drag_bp,gross_ann_mean,net_ann_mean,ann_turnover,breakeven_bp
+0,rank_top3_bottom3_DV01,0.0,0.0,0.00477,0.00477,0.92003,51.83067
+4,rank_top3_bottom3_DV01,1.0,0.0,0.00477,0.00468,0.92003,51.83067
+8,rank_top3_bottom3_DV01,2.0,0.0,0.00477,0.00458,0.92003,51.83067
+12,rank_top3_bottom3_DV01,5.0,0.0,0.00477,0.00431,0.92003,51.83067
+16,rank_top3_bottom3_DV01,10.0,0.0,0.00477,0.00385,0.92003,51.83067
+20,rank_top3_bottom3_DV01,25.0,0.0,0.00477,0.00247,0.92003,51.83067
+24,continuous_score_DV01,0.0,0.0,0.00586,0.00586,1.16482,50.3371
+28,continuous_score_DV01,1.0,0.0,0.00586,0.00575,1.16482,50.3371
+32,continuous_score_DV01,2.0,0.0,0.00586,0.00563,1.16482,50.3371
+36,continuous_score_DV01,5.0,0.0,0.00586,0.00528,1.16482,50.3371
+40,continuous_score_DV01,10.0,0.0,0.00586,0.0047,1.16482,50.3371
+44,continuous_score_DV01,25.0,0.0,0.00586,0.00295,1.16482,50.3371

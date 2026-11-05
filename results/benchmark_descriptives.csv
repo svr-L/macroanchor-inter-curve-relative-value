@@ -1,0 +1,4 @@
+benchmark,mean,std,count
+global10,0.0183,0.07155,532.0
+yield_level_LS,0.00143,0.01095,243.0
+slope_carry_LS,0.00297,0.01149,243.0

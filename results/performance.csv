@@ -1,0 +1,4 @@
+strategy,months,gross_ann_mean,NW_t,median_nonoverlap_SR,positive_tracks,ann_turnover,net_ann_mean,breakeven_bp,avg_abs_net_dv01,avg_abs_net_notional
+rank_top3_bottom3_DV01,363,0.00477,2.85327,0.36763,12/12,0.92003,0.00477,51.83067,0.0,0.01272
+rank_top2_bottom2_DV01_sensitivity,363,0.007,3.48899,0.47242,12/12,1.34994,0.007,51.87093,0.0,0.01742
+continuous_score_DV01,363,0.00586,3.1313,0.44644,12/12,1.16482,0.00586,50.3371,0.0,0.01593

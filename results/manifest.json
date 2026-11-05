@@ -1,0 +1,29 @@
+{
+  "research_status": "historical, proxy-return backtest; not live or institutionally executable returns",
+  "strategy_version": "V2.3 frozen",
+  "parent_signal": "MacroAnchor 10Y term premium, past-only standardization",
+  "source_executed_file": "01_macroanchor_g10_10y_relative_value_v2_3_upload_first(1).ipynb",
+  "source_executed_notebook_sha256": "4dfafeb397e1afa6e3d4daec72464dfe45d4390b42bd28a710574d9671f87021",
+  "source_code_sha256": "da0d6ee38f9ddc6c769f796552c74985921bb26d0510290f01d91c7f36713dcc",
+  "data_sha256_verified_by_executed_notebook": "1628c4eaff487f6d87cc93fe62c7af909850d9ceedf448d9d8321f8b8477bbf6",
+  "headline": "top3/bottom3 explicit DV01 neutrality",
+  "sensitivity": "top2/bottom2 (not headline)",
+  "secondary_spec": "continuous score",
+  "inference": "NW lag12 on overlapping 12m forward local-currency excess-return proxies",
+  "analysis_sample": {
+    "headline_formations": 363,
+    "full_duration_spanning": 363,
+    "all_benchmark_common_sample": 243,
+    "usable_countries": 9,
+    "active_legs_per_formation": 6
+  },
+  "no_underlying_model_panel_in_repository": true,
+  "extraction": "tables extracted from executed notebook cell outputs; rounded display values (5 decimals)",
+  "not_included": [
+    "CDS/sovereign credit audit",
+    "actual FX forward historical execution",
+    "top1/bottom1",
+    "conditional tenor expansion",
+    "institutional bond P&L"
+  ]
+}

@@ -1,0 +1,5 @@
+model,alpha_ann,alpha_t_NW,R2,n,beta_global10,beta_yield_level_LS,beta_slope_carry_LS
+rank_top3_bottom3_DV01 ~ global10,0.00518,2.83052,0.01517,363,-0.02423,,
+rank_top3_bottom3_DV01 ~ global10 + yield/slope RV,0.00229,1.52305,0.31206,243,-0.01549,0.36462,0.5179
+continuous_score_DV01 ~ global10,0.00611,3.04765,0.00502,363,-0.01454,,
+continuous_score_DV01 ~ global10 + yield/slope RV,0.00284,1.6525,0.31921,243,-0.00955,0.40682,0.52039

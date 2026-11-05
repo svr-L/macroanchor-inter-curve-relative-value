@@ -1,0 +1,7 @@
+strategy,regime,months,gross_ann_mean,NW_t,median_nonoverlap_SR,ann_turnover
+rank_top3_bottom3_DV01,2008_2015,96,0.00402,1.7857,0.49304,0.91347
+rank_top3_bottom3_DV01,2016_plus,99,0.00444,1.02477,0.26167,1.1144
+rank_top3_bottom3_DV01,pre_2008,168,0.00539,2.43745,0.43576,0.8805
+continuous_score_DV01,2008_2015,96,0.00512,2.13539,0.57331,1.26041
+continuous_score_DV01,2016_plus,99,0.00504,1.12289,0.27621,1.40467
+continuous_score_DV01,pre_2008,168,0.00678,2.49515,0.51161,1.03284
